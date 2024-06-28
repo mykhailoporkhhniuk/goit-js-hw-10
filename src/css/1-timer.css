@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.flatpickr-input {
+    border: 1px solid #808080;
+    width: 200px;
+    height: 30px;
+    color: #2e2f42;
+    margin-right: 8px;
+    margin-bottom: 32px;
+    padding-left: 45px;
+}
+
+.flatpickr-input:hover,
+.flatpickr-input:focus {
+    border: 1px solid #000;
+}
+
+.flatpickr-input.active {
+    outline: none;
+    border: 1px solid #4e75ff;
+}
+
+button {
+    padding: 8px 16px;
+    width: 75px;
+    height: 30px;
+}
+
+.timer {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 346px;
+    height: 72px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+
+.label {
+    text-transform: uppercase;
+}
